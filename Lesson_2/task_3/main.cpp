@@ -24,8 +24,10 @@ int main()
         }
 
 
-        if (maxStr < lengthStr[numberStr])
+        if (maxStr < lengthStr[numberStr]){
             maxStr = lengthStr[numberStr];
+        }
+
     }
 
 
@@ -33,9 +35,12 @@ int main()
         for(int Space = 0;Space <=((maxStr- lengthStr[numberStr] + 1)/2 ); Space++ ){
             cout << " ";
         }
-        for (int picture = 0; picture < lengthStr[numberStr]; picture++)
+        for (int picture = 0; picture < lengthStr[numberStr]; picture++){
+
             cout << "*";
+        }
         cout << endl;
+
     }
     return 0;
 }
