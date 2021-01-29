@@ -1,0 +1,10 @@
+*.exe
+*.pro.user
+*/build/
+*/*/build/
+*.cbp
+*.layout
+*/bin*
+*/*/bin*
+*/obj*
+*/*/obj*
